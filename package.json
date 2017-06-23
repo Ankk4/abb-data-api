@@ -1,0 +1,41 @@
+{
+  "name": "abb-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lib/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-clear": "^0.2.1",
+    "grunt-cli": "*",
+    "grunt-concurrent": "^2.3.0",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-jscs": "^3.0.1",
+    "grunt-nodemon": "^0.4.2",
+    "jshint-stylish": "^2.2.0",
+    "mocha": "^2.5.3",
+    "should": "*",
+    "supertest": "^1.2.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-route": "^1.5.8",
+    "bluebird": "^3.4.3",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.6",
+    "colors": "^1.1.2",
+    "express": "^4.14.0",
+    "jquery": "<3.0.0",
+    "mongoose": "^4.4.19",
+    "request": "^2.74.0",
+    "ws": "^1.1.1"
+  }
+}
